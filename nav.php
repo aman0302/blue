@@ -15,7 +15,7 @@ function buildNav($nav_param) {
 
                     
 
-                <a class="navbar-brand" href="#page-top">Strictly Students</a>
+                <a class="navbar-brand" href="index.php">Strictly Students</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->

@@ -2,8 +2,8 @@
 
 include 'initializer.php';
     $index =0;
-    $sec = array_keys($rent_nav_items);
-    $sec_heading = array_values($rent_nav_items);
+    $sec = array_keys($travel_nav_items);
+    $sec_heading = array_values($travel_nav_items);
 ?>
 
 <?php
@@ -14,7 +14,7 @@ include 'initializer.php';
 <body id="page-top" class="index">
 
     <?php
-        buildNav($rent_nav_items);
+        buildNav($travel_nav_items);
     ?>
 
     <!-- Header -->

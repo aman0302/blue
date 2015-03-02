@@ -47,6 +47,12 @@ include 'initializer.php';
             
             <?php buildCards();
             ?>
+             <div class="col-lg-4 col-lg-offset-4 text-center">
+                    <a href="academic.php" class="btn btn-lg btn-blue-outline">
+                        <i class="fa fa-download"></i> Go to Academic Genie
+                    </a>
+                </div>
+            </div>
         </div>
     </section>
     
@@ -131,6 +137,12 @@ include 'initializer.php';
                     </ul>
                 </div>
             </div>
+            <div class="col-lg-4 col-lg-offset-4 text-center">
+                    <a href="rent.php" class="btn btn-lg btn-outline">
+                        <i class="fa fa-download"></i> Go to Rent Space
+                    </a>
+                </div>
+            </div>
         </div>
     </section>
     
@@ -146,6 +158,12 @@ include 'initializer.php';
             </div>
             <?php buildTravelIntro();
             ?>
+            <div class="col-lg-4 col-lg-offset-4 text-center">
+                    <a href="travel.php" class="btn btn-lg btn-blue-outline">
+                        <i class="fa fa-download"></i> Go to Plan Trip
+                    </a>
+                </div>
+            </div>
         </div>
     </section>
 
