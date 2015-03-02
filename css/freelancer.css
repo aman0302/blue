@@ -951,13 +951,13 @@ text-transform: uppercase;
 } 
 
 .nav-pills a {
-   margin-top: 15px;
+    margin-top: 20px;
     border: solid 2px #2c3e50;
     font-size: 20px;
     color: #2c3e50;
     background: 0 0;
     transition: all .3s ease-in-out;
-    margin: 20px;
+    //margin: 20px;
 } 
 
 .nav-pills li a:hover,
@@ -1007,7 +1007,12 @@ text-transform: uppercase;
 }
 
 .tab-pane {
+    margin-top: 20px;
+}
+
+.success .tab-pane {
     margin: 20px;
+    color: #18bc9c;
 }
 
  

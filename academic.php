@@ -119,11 +119,55 @@ include 'initializer.php';
             </div>
 
             <ul class="nav nav-pills nav-justified ">
-              <li class="active"><a href="#tab_a" data-toggle="pill">First Year</a></li>
-              <li><a href="#tab_b" data-toggle="pill">Second  Year</a></li>
-              <li><a href="#tab_c" data-toggle="pill">Third  Year</a></li>
-              <li><a href="#tab_d" data-toggle="pill">Fourth Year</a></li>
+              <li class="active"><a href="#first-q" data-toggle="pill">First Year</a></li>
+              <li><a href="#second-q" data-toggle="pill">Second  Year</a></li>
+              <li><a href="#third-q" data-toggle="pill">Third  Year</a></li>
+              <li><a href="#fourth-q" data-toggle="pill">Fourth Year</a></li>
             </ul>
+            
+            <div class="tab-content">
+                
+                <div id="first-q" class="tab-pane active">
+                    <div class="panel panel-default">
+                    <table class="table table-hover table-striped table-bordered">
+                        <thead class="hidden-phone">
+                          <tr>
+                            <th class="hidden-phone">Firstname</th>
+                            <th>Lastname</th>
+                            <th>Email</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td class="hidden-phone">John</td>
+                            <td>Doe</td>
+                            <td>john@example.com</td>
+                          </tr>
+                          <tr>
+                            <td class="hidden-phone">Mary</td>
+                            <td>Moe</td>
+                            <td>mary@example</td>
+                          </tr>
+                          <tr>
+                            <td class="hidden-phone">July</td>
+                            <td>Dooley</td>
+                            <td>july@example</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                </div>
+                </div>
+                <div id="second-q" class="tab-pane">
+                    <h4>Pane 2 Content</h4>
+                    <p> and so on ...</p>
+                </div>
+                <div id="third-q" class="tab-pane">
+                    <h4>Pane 3 Content</h4>
+                </div>
+                <div id="fourth-q" class="tab-pane">
+                    <h4>Pane 4 Content</h4>
+                </div>
+            </div><!-- /.tab-content -->
 
         </div>
         
