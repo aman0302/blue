@@ -19,9 +19,11 @@ function buildHeader(){
         <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
 
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css"/>
+
         <!-- Custom CSS -->
         <link href="css/freelancer.css" rel="stylesheet">
-
+        <link href="css/animate.css" rel="stylesheet">
         <!-- Custom Fonts -->
         <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
         <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
